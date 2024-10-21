@@ -1,0 +1,7 @@
+
+.gitattributes
+*.json
+/.next
+/node_modules
+*.ts
+postcss.config.mjs

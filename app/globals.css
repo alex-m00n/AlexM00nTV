@@ -96,7 +96,20 @@ nextjs-portal {
   width: auto;
   margin: 1px;
 }
-
+.dark{
+.profile:hover{
+  
+  #img{
+    background-color: #333;
+  }
+}
+}
+.profile:hover{
+  
+  #img{
+    background-color: #ccc;
+  }
+}
 @keyframes rotate {
   0% {
     transform: rotate(0deg);

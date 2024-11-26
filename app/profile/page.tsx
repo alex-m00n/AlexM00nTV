@@ -32,19 +32,21 @@ export default function Profile() {
       <div>
         <details className="max-w-lg mb-6">
           <summary className="text-2xl font-bold">Qui suis-je ?</summary>
-          <p className="mx-6 mb-6 mt-1 max-w-60">Un collégien de 14 ans qui est passionné par les jeux vidéo, les échecs et la programmation. Un peu fou mais bon on est là !</p>
+          <p className="mx-6 mb-6 mt-1 max-w-80">Un collégien de 14 ans qui est passionné par les jeux vidéo, les échecs et la programmation. Un peu fou mais bon on est là !</p>
           <details className="max-w-sm">
             <summary className="text-xl font-bold ml-6">Mes projets</summary>
-            <p className="ml-12 mb-6 mt-1 max-w-56">Je suis en train de faire des sites web avec Next.js et Tailwind CSS. Je suis en train de faire des bot discord avec discord.js. Je vais lancer ma chaine youtube et twitch prochainement !</p>
+            <p className="ml-12 mb-6 mt-1 max-w-64">Je suis en train de faire des sites web avec Next.js et Tailwind CSS. Je suis en train de faire des bot discord avec discord.js. Je vais lancer ma chaine youtube et twitch prochainement !</p>
           </details>
           <details className="max-w-sm">
             <summary className="text-xl font-bold ml-6">Mes loisirs</summary>
-            <p className="ml-12 mb-6 mt-1 max-w-56">Je joue aux échecs, je fais du sport, je joue aux jeux vidéo et je code !</p>
+            <p className="ml-12 mb-6 mt-1 max-w-64">Je joue aux échecs, je fais du sport, je joue aux jeux vidéo et je code !</p>
           </details>
         </details>
         <details className="max-w-lg">
           <summary className="font-extrabold text-2xl">Je stream quoi ?</summary>
-          <p className="mx-6 mt-1 max-w-60">Je stream des échecs, du Rocket League, du Valorant et de la programmation !</p><p className="mx-6 mt-1 max-w-60">**Un bon gros puant quoi 🤓☝️**</p>
+          <p className="mx-6 mt-1 max-w-80">Je stream des échecs, du Rocket League, du Valorant et de la programmation !</p>
+          <p className="text-center mt-2">**Un bon gros puant quoi**</p>
+          <p className="text-center">🤓☝️</p>
           <br />
         </details>
       </div>

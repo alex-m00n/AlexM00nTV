@@ -44,7 +44,7 @@ export default function Profile() {
         </details>
         <details className="max-w-lg">
           <summary className="font-extrabold text-2xl">Je stream quoi ?</summary>
-          <p className="mx-6 mt-1 max-w-60">Je stream des échecs, du Rocket League, du Valorant et de la programmation !</p><p className="mx-6 mt-1 max-w-60">**Un bon gros puant quoi 🤓☝️ **</p>
+          <p className="mx-6 mt-1 max-w-60">Je stream des échecs, du Rocket League, du Valorant et de la programmation !</p><p className="mx-6 mt-1 max-w-60">**Un bon gros puant quoi 🤓☝️**</p>
           <br />
         </details>
       </div>

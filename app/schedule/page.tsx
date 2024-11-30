@@ -27,7 +27,7 @@ export default async function Schedule() {
                             <p className="p-3">Jeudi : Pas de stream :/</p>
                         </div>
                         <div className="m-4 max-w-lg border-2 border-accent rounded-lg hover:bg-accent bg-background">
-                            <p className="p-3">Vendredi : Sois Pas de stream :/ Sois 18h => 20h</p>
+                            <p className="p-3">Vendredi : Soit Pas de stream :/ Soit 18h => 20h</p>
                         </div>
                             <div className="m-4 max-w-lg border-2 border-accent rounded-lg hover:bg-accent bg-background">
                             <p className="p-3">Samedi : 15h => 18h + ???</p>

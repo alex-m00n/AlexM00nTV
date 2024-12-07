@@ -1,6 +1,5 @@
 
 .gitattributes
-*.json
 /.next
 /node_modules
 *.ts

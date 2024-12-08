@@ -2,4 +2,3 @@
 .gitattributes
 /.next
 /node_modules
-postcss.config.mjs

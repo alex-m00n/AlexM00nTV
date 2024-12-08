@@ -21,7 +21,7 @@ export default async function Profile() {
             <br />
             <hr className="border-2 mx-16 mb-5 mt-48" />
             <p>{t("devstream")}</p>
-            <p><i>" {t("I")} code ! (づ˶•༝•˶)づ <Heart className="w-4 h-4 inline" /> <Laptop className="w-4 h-4 inline" /> <Heart className="w-4 h-4 inline" /> "</i></p>
+            <p><i>&quot; {t("I")} code ! (づ˶•༝•˶)づ <Heart className="w-4 h-4 inline" /> <Laptop className="w-4 h-4 inline" /> <Heart className="w-4 h-4 inline" /> &quot;</i></p>
             <hr className="border-2 mx-3 my-5" />
             <h6 className="mx-5 inline-flex">
               <a href="https://www.twitch.tv/alexm00ntv" target="_blank" className="mx-2 hover:text-violet-800"><TwitchIcon /></a>

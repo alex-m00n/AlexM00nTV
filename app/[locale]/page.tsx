@@ -15,7 +15,7 @@ export default async function Home() {
       </head>
 
       <div>
-        <Image src="/animated.gif" className="rounded-full home-img w-auto" alt="profile-picture"/>
+        <img src="/animated.gif" className="rounded-full home-img w-auto" alt="profile-picture"/>
         <br />
         <h1 className="font-extrabold text-xl mb-1">{t("hometxt")}<Link href="/" className={buttonVariants({ variant: "link" })}>alexm00n.tv</Link></h1>
       </div>

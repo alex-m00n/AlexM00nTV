@@ -1,4 +1,4 @@
-
+.gitignore
 .gitattributes
 /.next
 /node_modules

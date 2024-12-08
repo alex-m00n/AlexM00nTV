@@ -10,9 +10,9 @@ export default {
     tuesdaytxt: "Mardi : 18h => 19h + ???",
     wednesdaytxt: "Mercredi : Pas de stream :/",
     thursdaytxt: "Jeudi : Pas de stream :/",
-    frydaytxt: "Fryday : Pas de stream :/ ou 18h => 20h",
-    saturdaytxt: "Saturday : 15h => 18h + ???",
-    sundaytxt: "Sunday : Pas de stream :/",
+    frydaytxt: "Vendredi : Pas de stream :/ ou 18h => 20h",
+    saturdaytxt: "Samedi : 15h => 18h + ???",
+    sundaytxt: "Dimanche : Pas de stream :/",
 
     devstream:"Développeur | Streameur",
     I: "Je",

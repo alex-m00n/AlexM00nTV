@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html className="h-auto w-auto">
       <head>
-        <link rel="shortcut icon" href="/animated.gif" type="image/x-gif" />
+        <link rel="shortcut icon" href="/animated.jpg" type="image/x-jpg" />
         <meta name="description" content="Just AlexM00n's Website" />
       </head>
 

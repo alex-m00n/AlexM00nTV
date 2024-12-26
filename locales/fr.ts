@@ -25,4 +25,7 @@ export default {
     IItitle:"Je stream quoi ?",
     IIp:"Je stream des échecs, du Rocket League, du Valorant et de la programmation !",
     IIpii:"**Un bon gros puant quoi**",
+
+    website:"Mon site",
+    description1:"Juste mon site"
   } as const

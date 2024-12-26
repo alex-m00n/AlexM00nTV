@@ -125,7 +125,16 @@ nextjs-portal {
   display: none;
 }
 
+.container-project-mobile{
+  display: none;
+}
+
 @media all and (max-width: 1215px) {
+
+  .container-project-mobile{
+    display: flex;
+  }
+
   .container-project{
     display: none;
   }

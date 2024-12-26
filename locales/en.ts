@@ -25,4 +25,7 @@ export default {
     IItitle:"What I stream ?",
     IIp:"I stream chess, Rocket League, Valorant and coding !",
     IIpii:"**We can say I am a big nerd**",
+
+    website:"My website",
+    description1:"Just my website"
   } as const

@@ -3,7 +3,7 @@ import clsx from "clsx";
 import { } from "lucide-react";
 
 export default async function Projects() {
-    const t =await getI18n();
+    const t = await getI18n();
     return (
         <>
             <head>
@@ -14,39 +14,40 @@ export default async function Projects() {
             <div className="container-project">
                 <div className="mb-3">
                     <ul className="justify-around space-x-2">
-                        <li className="inline-flex">
-                            <div className="rounded-lg border hover:bg-accent w-auto">
-                                <div className="pt-1">
-                                    <h1 className="mx-2">Lorem ipsum dolor <img className="rounded-lg ml-auto mr-0 inline" src="/animated.gif" height={100} width={100} /></h1>
+                        <a href="https://github.com/alex-m00n/AlexM00nTV" target="_blank">
+                            <li className="inline-flex">
+                                <div className="rounded-lg border hover:bg-accent w-96">
+                                    <div className="p-1">
+                                        <h1 className="m-2">{t("website")} <img className="rounded-lg float-right mb-2" src="/animated.gif" height={100} width={100} /></h1>
+
+                                        <br />
+                                        <p className="mx-2">
+                                            {t("description1")}
+                                        </p>
+                                    </div>
                                 </div>
-                                <br />
-                                <p className="mx-2">
-                                    Lorem ipsum dolor sit amet consectetur
-                                </p>
-                            </div>
-                        </li>
-                        <li className="inline-flex">
-                            <div className="rounded-lg border hover:bg-accent w-auto">
-                                <div className="pt-1">
-                                    <h1 className="mx-2">Lorem ipsum dolor <img className="rounded-lg ml-auto mr-0 inline" src="/animated.gif" height={100} width={100} /></h1>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div className="container-project-mobile">
+                <div className="mb-3">
+                    <ul className="justify-around space-x-2 mb-2">
+                        <a href="https://github.com/alex-m00n/AlexM00nTV" target="_blank">
+                            <li className="inline-flex">
+                                <div className="rounded-lg border hover:bg-accent w-96">
+                                    <div className="p-1">
+                                        <h1 className="m-2">{t("website")} <img className="rounded-lg float-right mb-2" src="/animated.gif" height={100} width={100} /></h1>
+
+                                        <br />
+                                        <p className="mx-2">
+                                            {t("description1")}
+                                        </p>
+                                    </div>
                                 </div>
-                                <br />
-                                <p className="mx-2">
-                                    Lorem ipsum dolor sit amet consectetur
-                                </p>
-                            </div>
-                        </li>
-                        <li className="inline-flex">
-                            <div className="rounded-lg border hover:bg-accent w-auto">
-                                <div className="pt-1">
-                                    <h1 className="mx-2">Lorem ipsum dolor <img className="rounded-lg ml-auto mr-0 inline" src="/animated.gif" height={100} width={100} /></h1>
-                                </div>
-                                <br />
-                                <p className="mx-2">
-                                    Lorem ipsum dolor sit amet consectetur
-                                </p>
-                            </div>
-                        </li>
+                            </li>
+                        </a>
                     </ul>
                 </div>
             </div>

@@ -36,18 +36,15 @@ export default async function Projects() {
                             </a>
                         </li>
                         <li className="inline-flex mx-2">
-                            <a href="https://github.com/alex-m00n/AlexM00nTV" target="_blank">
+                            <a href="https://github.com/alex-m00n/">
                                 <div className="rounded-lg border hover:bg-accent w-96">
                                     <div className="rounded-full bg-red-600 w-20 h-20 -mt-10 ml-5"><center><Bot className="align-middle" size={75} /></center></div>
                                     <div className="p-1">
-                                        <h1 className="m-2">M00n Bot</h1>
+                                        <h1 className="m-2">alexm00n.tv</h1>
                                         <p><Tag className="inline" /> Discord.js</p>
                                         <p className="mx-2">
                                             {t("description2")}
                                         </p>
-                                        <center>
-                                            <img src="/preview-site.png" className="w-80 h-auto" />
-                                        </center>
                                     </div>
                                 </div>
                             </a>
@@ -78,7 +75,7 @@ export default async function Projects() {
                     <br />
                     <a href="https://github.com/alex-m00n/">
                         <div className="rounded-lg border hover:bg-accent w-96">
-                        <div className="rounded-full bg-red-600 w-20 h-20 -mt-10 ml-5"><center><Bot className="align-middle" size={75} /></center></div>
+                            <div className="rounded-full bg-red-600 w-20 h-20 -mt-10 ml-5"><center><Bot className="align-middle" size={75} /></center></div>
                             <div className="p-1">
                                 <h1 className="m-2">alexm00n.tv</h1>
                                 <p><Tag className="inline" /> Discord.js</p>

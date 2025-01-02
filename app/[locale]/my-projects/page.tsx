@@ -81,7 +81,7 @@ export default async function Projects() {
                         <div className="rounded-full bg-red-600 w-20 h-20 -mt-10 ml-5"><center><Bot className="align-middle" size={75} /></center></div>
                             <div className="p-1">
                                 <h1 className="m-2">alexm00n.tv</h1>
-                                <p><Tag className="inline" />  Discord.js</p>
+                                <p><Tag className="inline" /> Discord.js</p>
                                 <p className="mx-2">
                                     {t("description2")}
                                 </p>

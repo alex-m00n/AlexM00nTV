@@ -26,6 +26,6 @@ export default {
     IIp:"Je stream des échecs, du Rocket League, du Valorant et de la programmation !",
     IIpii:"**Un bon gros puant quoi**",
 
-    website:"Mon site",
-    description1:"Juste mon site"
+    description1:"Juste mon site (vous êtes déjà dessus)",
+    description2:"Juste mon bot discord (pas encore en ligne)",
   } as const

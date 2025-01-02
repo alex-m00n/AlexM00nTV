@@ -1,6 +1,6 @@
 import { getI18n } from "@/locales/server";
 import clsx from "clsx";
-import { } from "lucide-react";
+import { Bot, Code2, Tag, Tags } from "lucide-react";
 
 export default async function Projects() {
     const t = await getI18n();
@@ -9,46 +9,90 @@ export default async function Projects() {
             <head>
                 <title>{clsx(t("projects"), " | AlexM00n 🌙")}</title>
             </head>
-            <h1 className="text-center">{t("projects")}</h1>
-            <br />
-            <div className="container-project">
-                <div className="mb-3">
-                    <ul className="justify-around space-x-2">
-                        <a href="https://github.com/alex-m00n/AlexM00nTV" target="_blank">
-                            <li className="inline-flex">
-                                <div className="rounded-lg border hover:bg-accent w-96">
-                                    <div className="p-1">
-                                        <h1 className="m-2">{t("website")} <img className="rounded-lg float-right mb-2" src="/animated.gif" height={100} width={100} /></h1>
 
-                                        <br />
+
+            <h1 className="text-center">{t("projects")}</h1>
+
+            <br />
+
+            <div className="container-project mt-5">
+                <div>
+                    <ul className="justify-around">
+                        <li className="inline-flex mx-2">
+                            <a href="https://github.com/alex-m00n/AlexM00nTV" target="_blank">
+                                <div className="rounded-lg border hover:bg-accent w-96">
+                                    <div className="rounded-full bg-cyan-600 w-20 h-20 -mt-10 ml-5"><center><Code2 className="align-middle" size={75} /></center></div>
+                                    <div className="p-1">
+                                        <h1 className="m-2">alexm00n.tv</h1>
+                                        <p><Tags className="inline" /> Next.js, Tailwind</p>
                                         <p className="mx-2">
                                             {t("description1")}
                                         </p>
+                                        <center>
+                                            <img src="/preview-site.png" className="w-80 h-auto" />
+                                        </center>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
+                            </a>
+                        </li>
+                        <li className="inline-flex mx-2">
+                            <a href="https://github.com/alex-m00n/AlexM00nTV" target="_blank">
+                                <div className="rounded-lg border hover:bg-accent w-96">
+                                    <div className="rounded-full bg-red-600 w-20 h-20 -mt-10 ml-5"><center><Bot className="align-middle" size={75} /></center></div>
+                                    <div className="p-1">
+                                        <h1 className="m-2">M00n Bot</h1>
+                                        <p><Tag className="inline" /> Discord.js</p>
+                                        <p className="mx-2">
+                                            {t("description2")}
+                                        </p>
+                                        <center>
+                                            <img src="/preview-site.png" className="w-80 h-auto" />
+                                        </center>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-            </div>
-            <div className="container-project-mobile">
-                <div className="mb-3">
-                    <ul className="justify-around space-x-2 mb-2">
-                        <a href="https://github.com/alex-m00n/AlexM00nTV" target="_blank">
-                            <li className="inline-flex">
-                                <div className="rounded-lg border hover:bg-accent w-96">
-                                    <div className="p-1">
-                                        <h1 className="m-2">{t("website")} <img className="rounded-lg float-right mb-2" src="/animated.gif" height={100} width={100} /></h1>
 
-                                        <br />
-                                        <p className="mx-2">
-                                            {t("description1")}
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                        </a>
-                    </ul>
+            </div>
+
+            <div className="container-project-mobile  mt-5">
+                <div>
+                    <a href="https://github.com/alex-m00n/AlexM00nTV">
+                        <div className="rounded-lg border hover:bg-accent w-96">
+                            <div className="rounded-full bg-cyan-600 w-20 h-20 -mt-10 ml-5"><center><Code2 className="align-middle" size={75} /></center></div>
+                            <div className="p-1">
+                                <h1 className="m-2">alexm00n.tv</h1>
+                                <p><Tags className="inline" /> Next.js, Tailwind</p>
+                                <p className="mx-2">
+                                    {t("description1")}
+                                </p>
+                                <center>
+                                    <img src="/preview-site.png" className="w-80 h-auto" />
+                                </center>
+                            </div>
+                        </div>
+                    </a>
+                    <br />
+                    <br />
+                    {/* <a href="https://github.com/alex-m00n/AlexM00nTV"> */}
+                        <div className="rounded-lg border hover:bg-accent w-96">
+                        <div className="rounded-full bg-red-600 w-20 h-20 -mt-10 ml-5"><center><Bot className="align-middle" size={75} /></center></div>
+                            <div className="p-1">
+                                <h1 className="m-2">alexm00n.tv</h1>
+                                <p><Tag className="inline" /> Discord.js</p>
+                                <p className="mx-2">
+                                    {t("description2")}
+                                </p>
+                                <center>
+                                    <img src="/preview-site.png" className="w-80 h-auto" />
+                                </center>
+                            </div>
+                        </div>
+                    {/* </a> */}
+                    <br />
+
                 </div>
             </div>
         </>

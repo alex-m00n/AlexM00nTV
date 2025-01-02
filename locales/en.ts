@@ -26,6 +26,6 @@ export default {
     IIp:"I stream chess, Rocket League, Valorant and coding !",
     IIpii:"**We can say I am a big nerd**",
 
-    website:"My website",
-    description1:"Just my website"
+    description1:"Just my website (you are already on)",
+    description2:"Just my bot discord (not yet upload)",
   } as const

@@ -129,6 +129,14 @@ nextjs-portal {
   display: none;
 }
 
+#thumbnails{
+  display: absolute;
+  transform: translate(610px,-560px) scale(.12, .12);
+  pointer-events: none;
+  overflow: hidden;
+}
+
+
 @media all and (max-width: 1215px) {
 
   .container-project-mobile{

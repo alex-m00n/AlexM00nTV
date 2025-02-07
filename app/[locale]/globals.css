@@ -67,6 +67,7 @@
 }
 
 @layer base {
+
   * {
     @apply border-border;
   }
@@ -79,12 +80,8 @@
     @apply text-2xl font-bold;
   }
 
-
 }
 
-body{
-  cursor: url("http://localhost:3000/animated.gif"),auto;
-}
 
 nextjs-portal {
   display: none;
@@ -96,17 +93,16 @@ nextjs-portal {
   width: auto;
   max-height: 70vh;
 }
+
 .dark{
-.profile:hover{
-  
-  #img{
-    background-color: #333;
+  .profile:hover{
+    #img{
+      background-color: #333;
+    }
   }
-}
 }
 
 .profile:hover{
-  
   #img{
     background-color: #ccc;
   }
@@ -125,26 +121,18 @@ nextjs-portal {
   display: none;
 }
 
-.container-project-mobile{
-  display: none;
+.container-project ul li{
+  display: inline-flex;
 }
 
-#thumbnails{
-  display: absolute;
-  transform: translate(610px,-560px) scale(.12, .12);
-  pointer-events: none;
-  overflow: hidden;
+.container-project ul{
+  justify-content: space-around;
 }
-
 
 @media all and (max-width: 1215px) {
-
-  .container-project-mobile{
-    display: flex;
-  }
-
-  .container-project{
-    display: none;
+  .container-project ul li{
+    display: block;
+    margin-bottom: 3rem;
   }
   .containerLink{
     display:none;

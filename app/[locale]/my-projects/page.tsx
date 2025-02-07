@@ -17,8 +17,8 @@ export default async function Projects() {
 
             <div className="container-project mt-5">
                 <div>
-                    <ul className="justify-around">
-                        <li className="inline-flex mx-2">
+                    <ul>
+                        <li className="mx-2">
                             <a href="https://github.com/alex-m00n/AlexM00nTV" target="_blank">
                                 <div className="rounded-lg border hover:bg-accent w-96">
                                     <div className="rounded-full bg-cyan-600 w-20 h-20 -mt-10 ml-5"><center><Code2 className="align-middle" size={75} /></center></div>
@@ -30,13 +30,14 @@ export default async function Projects() {
                                         </p>
                                         <center>
                                             <img src="/preview-site.png" className="w-80 h-auto" />
+                                            
                                         </center>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li className="inline-flex mx-2">
-                            <a href="https://github.com/alex-m00n/">
+                        <li className="mx-2">
+                            <a href="https://github.com/alex-m00n/" target="_blank">
                                 <div className="rounded-lg border hover:bg-accent w-96">
                                     <div className="rounded-full bg-red-600 w-20 h-20 -mt-10 ml-5"><center><Bot className="align-middle" size={75} /></center></div>
                                     <div className="p-1">
@@ -52,42 +53,6 @@ export default async function Projects() {
                     </ul>
                 </div>
 
-            </div>
-
-            <div className="container-project-mobile  mt-5">
-                <div>
-                    <a href="https://github.com/alex-m00n/AlexM00nTV">
-                        <div className="rounded-lg border hover:bg-accent w-96">
-                            <div className="rounded-full bg-cyan-600 w-20 h-20 -mt-10 ml-5"><center><Code2 className="align-middle" size={75} /></center></div>
-                            <div className="p-1">
-                                <h1 className="m-2">alexm00n.tv</h1>
-                                <p><Tags className="inline" /> Next.js, Tailwind</p>
-                                <p className="mx-2">
-                                    {t("description1")}
-                                </p>
-                                <center>
-                                    <img src="/preview-site.png" className="w-80 h-auto" />
-                                </center>
-                            </div>
-                        </div>
-                    </a>
-                    <br />
-                    <br />
-                    <a href="https://github.com/alex-m00n/">
-                        <div className="rounded-lg border hover:bg-accent w-96">
-                            <div className="rounded-full bg-red-600 w-20 h-20 -mt-10 ml-5"><center><Bot className="align-middle" size={75} /></center></div>
-                            <div className="p-1">
-                                <h1 className="m-2">M00n Bot</h1>
-                                <p><Tag className="inline" /> Discord.js</p>
-                                <p className="mx-2">
-                                    {t("description2")}
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <br />
-
-                </div>
             </div>
         </>
     );

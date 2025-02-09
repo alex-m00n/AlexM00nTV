@@ -29,8 +29,8 @@ export default async function Projects() {
                                             {t("description1")}
                                         </p>
                                         <center>
-                                            <img src="/preview-site.png" className="w-80 h-auto" />
-                                            
+                                            <img src="/preview-site-dark.png" className="w-80 h-auto preview-dark" />
+                                            <img src="/preview-site-light.png" className="w-80 h-auto preview-light" />
                                         </center>
                                     </div>
                                 </div>

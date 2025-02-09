@@ -100,6 +100,20 @@ nextjs-portal {
       background-color: #333;
     }
   }
+  .preview-dark{
+    display: inline-block;
+  }
+  .preview-light{
+    display: none;
+  }
+}
+
+  .preview-dark{
+    display: none;
+  }
+
+.preview-dark{
+  display: none;
 }
 
 .profile:hover{

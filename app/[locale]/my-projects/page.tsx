@@ -37,7 +37,7 @@ export default async function Projects() {
                             </a>
                         </li>
                         <li className="mx-2">
-                            <a href="https://github.com/alex-m00n/" target="_blank">
+                            <a href="https://github.com/alex-m00n/M00nBot" target="_blank">
                                 <div className="rounded-lg border hover:bg-accent w-96">
                                     <div className="rounded-full bg-red-600 w-20 h-20 -mt-10 ml-5"><center><Bot className="align-middle" size={75} /></center></div>
                                     <div className="p-1">

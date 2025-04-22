@@ -29,7 +29,6 @@ export default function RootLayout({
       <body className={clsx(ibm.className, "bg-background overflow-x-hidden")}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
         <Providers locale={params.locale}/>
-          
           <div className="flex flex-col">
             <Header/>
             <div className="flex-1 m-auto pt-16">
@@ -37,7 +36,6 @@ export default function RootLayout({
               <SpeedInsights />
             </div>
           </div>
-
         </ThemeProvider>
         <Footer />
       </body>

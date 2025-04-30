@@ -27,5 +27,5 @@ export default {
     IIpii:"**We can say I am a big nerd**",
 
     description1:"Just my website (you are already on)",
-    description2:"Just my bot discord (not yet upload)",
+    description2:"Just my bot discord",
   } as const

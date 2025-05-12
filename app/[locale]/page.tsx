@@ -17,7 +17,7 @@ export default async function Home() {
       <div>
         <img src="/animated.gif" className="rounded-full home-img w-auto" alt="profile-picture"/>
         <br />
-        <h1 className="font-extrabold text-xl mb-1">{t("hometxt")}<Link href="/" className={buttonVariants({ variant: "link" })}>alexm00n.tv</Link></h1>
+        <h1 className="font-extrabold text-xl mb-1 text-center">{t("hometxt")}<p className="inline-flex hover:underline text-sm underline-offset-2">alexm00n.tv</p></h1>
       </div>
     </>
   );

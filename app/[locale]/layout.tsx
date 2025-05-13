@@ -23,11 +23,10 @@ export default function RootLayout({
     <html className="h-auto w-auto">
       <head>
         <link rel="shortcut icon" href="/animated.jpg" type="image/x-jpg" />
-        <meta name="description" content="Just AlexM00n's Website" />
       </head>
 
       <body className={clsx(ibm.className, "bg-background overflow-x-hidden")}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <ThemeProvider attribute="class" enableSystem defaultTheme="system">
         <Providers locale={params.locale}/>
           <div className="flex flex-col">
             <Header/>

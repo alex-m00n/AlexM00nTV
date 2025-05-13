@@ -10,6 +10,7 @@ export default async function Profile() {
     <>
       <head>
         <title>Profile | AlexM00n 🌙</title>
+        <meta name="description" content="Just AlexM00n's Profile Page on AlexM00n's Website" />
       </head>
         <div className="pt-2 flex justify-center">
           <div className="profile align-middle h-96 border-4 items-center w-80 justify-around text-center rounded-lg hover:bg-accent">

@@ -12,6 +12,7 @@ export default async function Home() {
     <>
       <head>
         <title>{clsx(t("home"), " | AlexM00n 🌙")}</title>
+        <meta name="description" content="Just AlexM00n's Website" />
       </head>
 
       <div>

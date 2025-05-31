@@ -4,6 +4,8 @@ export default {
   schedule: "Planning de Stream",
 
   projects: "Mes Projets",
+  
+  profile: "À propos de moi",
 
   hometxt: "Bienvenue sur mon site ",
   mondaytxt: "Lundi : 18h => 19h + ???",
@@ -17,9 +19,9 @@ export default {
   devstream: "Développeur | Streameur",
   I: "Je",
   Ititle: "Qui suis-je ?",
-  Ip: "Un collégien de 14 ans qui est passionné par les jeux vidéo, les échecs et la programmation. Un peu fou mais bon on est là !",
+  Ip: "Un collégien de 15 ans qui est passionné par les jeux vidéo, les échecs et la programmation. Un peu fou mais bon on est là !",
   Iititle: "Mes projets",
-  Iip: "Je suis en train de faire des sites web avec Next.js et Tailwind CSS. Je suis en train de faire des bot discord avec discord.js. Je vais lancer ma chaine youtube et twitch prochainement !",
+  Iip: "Je faits des sites web avec Next.js et Tailwind CSS et des bot discord avec discord.js. Je vais lancer ma chaine youtube et twitch prochainement !",
   Iiititle: "Mes loisirs",
   Iiip: "Je joue aux échecs, je fais du sport, je joue aux jeux vidéo et je code !",
   IItitle: "Je stream quoi ?",
@@ -35,5 +37,6 @@ export default {
     "* Système de rôles",
     "* Et encore plus ...",
     "**Un bot multifonction**"
-  ]
+  ],
+  description3: "Juste le site pour mon Bot Discord (Docs)",
 } as const

@@ -1,13 +1,18 @@
 import { getI18n } from "@/locales/server";
-import clsx from "clsx";
+import { Metadata } from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+    const t = await getI18n();
+    return {
+        title: `${t('schedule')} | AlexM00n 🌙`,
+        description: "Just AlexM00n's Schedule Page on AlexM00n's Website"
+    };
+}
 
 export default async function Schedule() {
     const t = await getI18n();
     return (
         <>
-            <head>
-                <title>{clsx(t("schedule"), " | AlexM00n 🌙")}</title>
-            </head>
             <div className="m-4 max-w-lg border-2 border-accent rounded-sm mt-1">
                 <ul>
                     <li>

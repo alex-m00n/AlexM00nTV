@@ -1,20 +1,18 @@
-import { Button, buttonVariants } from "@/components/ui/button";
 import { getI18n } from "@/locales/server";
-import { HomeIcon } from "@radix-ui/react-icons";
-import clsx from "clsx";
-import { } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
+import { Metadata } from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+    const t = await getI18n();
+    return {
+        title: `${t('home')} | AlexM00n 🌙`,
+        description: "Just AlexM00n's Website"
+    };
+}
 
 export default async function Home() {
   const t = await getI18n();
   return (
     <>
-      <head>
-        <title>{clsx(t("home"), " | AlexM00n 🌙")}</title>
-        <meta name="description" content="Just AlexM00n's Website" />
-      </head>
-
       <div>
         <img src="/animated.gif" className="rounded-full home-img w-auto" alt="profile-picture"/>
         <br />

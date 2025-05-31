@@ -5,6 +5,8 @@ export default {
 
   projects: "My Projects",
 
+  profile: "About me",
+
   hometxt: "Welcome to my website ",
   mondaytxt: "Monday : 18h => 19h + ???",
   tuesdaytxt: "Tuesday : 18h => 19h + ???",
@@ -17,9 +19,9 @@ export default {
   devstream: "Devlopper | Streamer",
   I: "I",
   Ititle: "Who am I ?",
-  Ip: "A 14-year-old high school student who is passionate about video games, chess and programming. A little crazy but good we are here !",
+  Ip: "A 15-year-old high school student who is passionate about video games, chess and programming. A little crazy but good we are here !",
   Iititle: "My projects",
-  Iip: "I'm making websites with Next.js and Tailwind CSS. I'm making discord bots with discord.js. I will launch my youtube and twitch channel soon! !",
+  Iip: "I'm making websites with Next.js and Tailwind CSS and discord bots with discord.js. I will launch my youtube and twitch channel soon! !",
   Iiititle: "My hobbies",
   Iiip: "I play chess, I do sports, I play videogames and I code !",
   IItitle: "What I stream ?",
@@ -35,5 +37,7 @@ export default {
     "* Roles system",
     "* And more ...",
     "**A multifonctional bot**",
-  ]
+  ],
+
+  description3: "Just my Discord Bot website (Docs)",
 } as const

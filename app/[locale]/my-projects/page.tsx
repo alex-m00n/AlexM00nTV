@@ -28,8 +28,8 @@ export default async function Projects() {
                                 <p><Tags className="inline" /> <span className="hover:underline">Next.js</span>, <span className="hover:underline">Tailwind</span></p>
                                 <p>{t("description1")}</p>
                                 <div className="project-preview">
-                                    <img src="/preview-alexm00ntv-dark.png" className="preview-dark rounded-lg" alt="Dark preview" />
-                                    <img src="/preview-alexm00ntv-light.png" className="preview-light rounded-lg" alt="Light preview" />
+                                    <img src="/preview-alexm00ntv-dark.png" className="preview-dark rounded-lg border-2 border-accent" alt="Dark preview" />
+                                    <img src="/preview-alexm00ntv-light.png" className="preview-light rounded-lg border-2 border-accent" alt="Light preview" />
                                 </div>
                             </div>
                         </a>
@@ -64,8 +64,8 @@ export default async function Projects() {
                                 <p><Tags className="inline" /> <span className="hover:underline">Next.js</span>, <span className="hover:underline">Tailwind</span></p>
                                 <p>{t("description3")}</p>
                                 <div className="project-preview">
-                                    <img src="/preview-m00nbotwebsite-dark.png" className="preview-dark rounded-lg" alt="Dark preview" />
-                                    <img src="/preview-m00nbotwebsite-light.png" className="preview-light rounded-lg" alt="Light preview" />
+                                    <img src="/preview-m00nbotwebsite-dark.png" className="preview-dark rounded-lg border-2 border-accent" alt="Dark preview" />
+                                    <img src="/preview-m00nbotwebsite-light.png" className="preview-light rounded-lg border-2 border-accent" alt="Light preview" />
                                 </div>
                             </div>
                         </a>
